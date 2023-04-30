@@ -35,12 +35,12 @@ def main():
             return _STANDARD_DEVIATION
         
         if _INDEX_OF_DATA != 0:
-            print(round(_standard_deviation(_DATA_LIST), 5))
-
+            print("Standard Deviation: " + str(round(_standard_deviation(_DATA_LIST), 5)))
+            print("Variance of Data: " + str(round(_standard_deviation(_DATA_LIST)**2, 5)))
+            
         if _RERUN_PROGRAM == False:
             break
         else:
             _END_OF_DATA_LIST = False
-
 
 main()
